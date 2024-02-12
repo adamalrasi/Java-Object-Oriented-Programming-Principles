@@ -3,6 +3,10 @@
 public class Main {
     public static void main(String[] args){
         Customer customer = new Customer("Adam", "Alrasi");
+        customer.setFirstName("AdamA ");
         customer.print();
+        System.out.println(customer.getFirstName());
+        Employee employee = new Employee("Mahad", "Abukar");
+        employee.print();
     }
 }

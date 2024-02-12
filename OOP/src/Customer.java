@@ -1,11 +1,6 @@
-public class Customer {
-        String firstName;
-        String lastName;
-        Customer(String fName, String lName){
-            firstName = fName;
-            lastName = lName;
-        }
-        void print(){
-            System.out.println("First Name: " +firstName+ ", Last Name: "+lastName);
+public class Customer extends Person {
+    private String deliveryAddress;
+    public Customer(String fName, String lName, String dAddress){
+        super(fName, lName);
     }
 }
